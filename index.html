@@ -1,20 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>W3.CSS Template</title>
+<title>Thasbia Sultana Portfolio</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="/styles.css" />
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
 </head>
 <body class="w3-black">
 
 <!-- Icon Bar (Sidebar - hidden on small screens) -->
 <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
-  <!-- Avatar image in top left corner -->
-  <img src="/w3images/avatar_smoke.jpg" style="width:100%">
+
   <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
     <i class="fa fa-home w3-xxlarge"></i>
     <p>HOME</p>
@@ -23,9 +31,9 @@
     <i class="fa fa-user w3-xxlarge"></i>
     <p>ABOUT</p>
   </a>
-  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+  <a href="#My-Skills-&-CV" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
     <i class="fa fa-eye w3-xxlarge"></i>
-    <p>PHOTOS</p>
+    <p>SKILLS & CV</p>
   </a>
   <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
     <i class="fa fa-envelope w3-xxlarge"></i>
@@ -38,7 +46,7 @@
   <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
     <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
     <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
-    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+    <a href="#skills_&_CV" class="w3-bar-item w3-button" style="width:25% !important">My Skills & CV</a>
     <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
   </div>
 </div>
@@ -48,170 +56,534 @@
   <!-- Header/Home -->
   <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
     <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Thasbia Sultana.</h1>
-    <p>Photographer and Web Designer.</p>
-    <img src="/w3images/man_smoke.jpg" alt="boy" class="w3-image" width="992" height="1108">
+    <p style="color: white; font-size: 18px; ">
+    Apprentice Cyber Security Engineer.</p>
+    <img src="images/thumbnail_Image (1).jpg" alt="boy" class="w3-image" width="500" height="450">
   </header>
 
   <!-- About Section -->
   <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
-    <h2 class="w3-text-light-grey">My Name</h2>
+    <h2 class="w3-text-light-grey">About me</h2>
     <hr style="width:200px" class="w3-opacity">
-    <p>Some text about me. Some text about me. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
-      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    <p style="color: white; font-size: 16px; ">
+    Welcome! Explore the unconventional path from non-technical beginnings to my role as a Cyber Security Engineer apprentice. 
+    It's not your typical tech narrative; it's a blend of starting from scratch, acquiring diverse skills, and challenging the way we perceive cybersecurity.
+    Envision this: merging creativity with code, treating problem-solving as both an art and a science. My journey extends beyond conventional technical boundaries,
+    encompassing a unique set of skills that transcend the standard cyber landscape. It's about intertwining creativity, strategic thinking, and technical proficiency.
+  </p>
+  <p style="color: white; font-size: 16px; ">
+    Dive into my portfolio, where you'll encounter a fusion of skills stemming from diverse backgrounds; creativity, communication, and critical thinking, all seamlessly integrated into the realm of cybersecurity.
+In an era defined by continual technological evolution, possessing a diverse skill set is not just advantageous; it's a necessity. Let's collaboratively redefine the strategies for safeguarding our digital landscape, one project at a time. 
+Together, we have the opportunity to envision and fortify the future of digital security.
+
+      
     </p>
-    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
-    <p class="w3-wide">Photography</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
-    </div>
-    <p class="w3-wide">Web Design</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
-    </div>
-    <p class="w3-wide">Photoshop</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
-    </div><br>
+
+   
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fancy Horizontal Timeline</title>
+        <style>
+            body {
+                font-family: 'Arial', sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f3f3f3;
+            }
     
-    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">11+</span><br>
-        Partners
+            .timeline {
+                display: flex;
+                width: 100%;
+                overflow-x: auto;
+                white-space: text-wrap;
+            }
+    
+            .event {
+                position: relative;
+                width: 50%;
+                min-width: 400px;
+                padding: 20px;
+                height: 300px;
+                height: auto; /* Adjust the height as needed */
+                background-color: #333;
+                color: #fff;
+                border-radius: 20px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                margin: 20px;
+                transition: background-color 0.3s ease;
+                overflow: hidden; /* Clip content that exceeds the box */
+            }
+            
+        
+    
+            .event:hover {
+                background-color: #555;
+            }
+    
+            .event img {
+              max-width: 100%;            
+                border-radius: 4px;
+                margin-bottom: 10px;
+                object-fit: cover
+                
+            }
+    
+            .event h3 {
+                margin-top: 0;
+            }
+    
+            .event p {
+                margin-bottom: 0;
+                text-align: left;
+            }
+    
+            .arrow {
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                width: 0;
+                height: 0;
+                border-style: solid;
+                z-index: 1;
+            }
+    
+            .arrow-left {
+                left: 0;
+                border-width: 10px 15px 10px 0;
+                border-color: transparent #333 transparent transparent;
+            }
+    
+            .arrow-right {
+                right: 0;
+                border-width: 10px 0 10px 15px;
+                border-color: transparent transparent transparent #333;
+            }
+        </style>
+    </head>
+    <body>
+    
+    <div class="timeline">
+        <div class="event">
+            <div class="arrow arrow-left"></div>
+            <img src="images/Event 1.jpg" alt="Event 1" width="500" height="300" /> 
+            <h3>Working in Retail</h3>
+            <p>In 2017, I immersed myself in the realm of retail 
+              kickstarting my career in a dynamic and customer-centric industry. 
+              Throughout the years, I refined my skills in sales,
+             customer service, and store operations, accumulating valuable experience that laid the foundation for my professional journey. </p>
+            <div class="arrow arrow-right"></div>
+        </div>
+    
+        <div class="event">
+            <div class="arrow arrow-left"></div>
+            <img src="images/Event 2.jpg" alt="Event 2" width="500" height="300" />            
+            <h3>University</h3>
+            <p>I chose to attend the University of Bradford to pursue occupational therapy, and I am proud to have graduated with first-class honors. The program, featured an integration of
+               hands-on placements and rigorous theoretical studies, played a pivotal role in refining my skills and shaping my commitment 
+               to enhancing individuals' well-being.</p>
+            <div class="arrow arrow-right"></div>
+        </div>
+    
+        <div class="event">
+            <div class="arrow arrow-left"></div>
+            <img src="images/Event 3.jpeg" alt="Event 3" width="500" height="300" />
+            <h3>Occupational Therapist</h3>
+            <p>After earning my degree in occupational therapy from the University of Bradford.
+              I started working as an occupational therapist,specialising in community-based occupational therapy.
+              My responsibilities encompass facilitating individuals' engagement in various community settings,
+               tailoring interventions to address unique needs, and promoting autonomy.
+            </p>
+            <div class="arrow arrow-right"></div>
+        </div>
+    
+        <div class="event">
+          <div class="arrow arrow-left"></div>
+          <img src="images/Event 4.jpg" alt="Event 2" width="500" height="300" />          
+          <h3>Paralegal</h3>
+          <p>
+            After deciding not to pursue a career in occupational therapy, I came across an opportunity to become a paralegal, 
+            drawn to the role's analytical and problem-solving aspects. However, I soon found that merely being a
+             paralegal did not fully satisfy my professional aspirations,
+             prompting me to explore avenues where I could leverage my skills for greater impact and personal fulfillment.</p>
+          <div class="arrow arrow-right"></div>
       </div>
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">55+</span><br>
-        Projects Done
-      </div>
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">89+</span><br>
-        Happy Clients
-      </div>
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">150+</span><br>
-        Meetings
-      </div>
+
+      <div class="event">
+        <div class="arrow arrow-left"></div>
+        <img src="images/Event 5.jpg" alt="Event 2" width="500" height="300" />            <h3>UA92 Bootcamp</h3>
+        <p>Enrolling in the UA92 bootcamp in cloud engineering with Cybersecurity
+          not only deepened my understanding of these fields but ignited a profound interest in cybersecurity.
+          The experience opened my eyes to the diverse roles within the technology sector,
+          it became a pivotal moment that motivated me to explore and pursue a career in this dynamic field.</p>
+        <div class="arrow arrow-right"></div>
     </div>
 
-    <button class="w3-button w3-light-grey w3-padding-large w3-section">
-      <i class="fa fa-download"></i> Download Resume
-    </button>
-    
-    <!-- Grid for pricing tables -->
-    <h3 class="w3-padding-16 w3-text-light-grey">My Price</h3>
-    <div class="w3-row-padding" style="margin:0 -16px">
-      <div class="w3-half w3-margin-bottom">
-        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-          <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
-          <li class="w3-padding-16">Web Design</li>
-          <li class="w3-padding-16">Photography</li>
-          <li class="w3-padding-16">5GB Storage</li>
-          <li class="w3-padding-16">Mail Support</li>
-          <li class="w3-padding-16">
-            <h2>$ 10</h2>
-            <span class="w3-opacity">per month</span>
-          </li>
-          <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
-          </li>
-        </ul>
-      </div>
-
-      <div class="w3-half">
-        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-          <li class="w3-dark-grey w3-xlarge w3-padding-32">Pro</li>
-          <li class="w3-padding-16">Web Design</li>
-          <li class="w3-padding-16">Photography</li>
-          <li class="w3-padding-16">50GB Storage</li>
-          <li class="w3-padding-16">Endless Support</li>
-          <li class="w3-padding-16">
-            <h2>$ 25</h2>
-            <span class="w3-opacity">per month</span>
-          </li>
-          <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
-          </li>
-        </ul>
-      </div>
-    <!-- End Grid/Pricing tables -->
-    </div>
-    
-    <!-- Testimonials -->
-    <h3 class="w3-padding-24 w3-text-light-grey">My Reputation</h3>  
-    <img src="/w3images/bandmember.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
-    <p><span class="w3-large w3-margin-right">Chris Fox.</span> CEO at Mighty Schools.</p>
-    <p>John Doe saved us from a web disaster.</p><br>
-    
-    <img src="/w3images/avatar_g2.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
-    <p><span class="w3-large w3-margin-right">Rebecca Flex.</span> CEO at Company.</p>
-    <p>No one is better than John Doe.</p>
-  <!-- End About Section -->
-  </div>
-  
-  <!-- Portfolio Section -->
-  <div class="w3-padding-64 w3-content" id="photos">
-    <h2 class="w3-text-light-grey">My Photos</h2>
-    <hr style="width:200px" class="w3-opacity">
-
-    <!-- Grid for photos -->
-    <div class="w3-row-padding" style="margin:0 -16px">
-      <div class="w3-half">
-        <img src="/w3images/wedding.jpg" style="width:100%">
-        <img src="/w3images/rocks.jpg" style="width:100%">
-        <img src="/w3images/sailboat.jpg" style="width:100%">
-      </div>
-
-      <div class="w3-half">
-        <img src="/w3images/underwater.jpg" style="width:100%">
-        <img src="/w3images/chef.jpg" style="width:100%">
-        <img src="/w3images/wedding.jpg" style="width:100%">
-        <img src="/w3images/p6.jpg" style="width:100%">
-      </div>
-    <!-- End photo grid -->
-    </div>
-  <!-- End Portfolio Section -->
-  </div>
-
-  <!-- Contact Section -->
-  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
-    <h2 class="w3-text-light-grey">Contact Me</h2>
-    <hr style="width:200px" class="w3-opacity">
-
-    <div class="w3-section">
-      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Chicago, US</p>
-      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p>
-      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
-    </div><br>
-    <p>Let's get in touch. Send me a message:</p>
-
-    <form action="/action_page.php" target="_blank">
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+    <div class="event">
+      <div class="arrow arrow-left"></div>
+      <img src="images/Event 6.jpg" alt="Event 2" width="500" height="300" />            <h3>THG Apprenticeship</h3>
       <p>
-        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
-          <i class="fa fa-paper-plane"></i> SEND MESSAGE
-        </button>
-      </p>
-    </form>
-  <!-- End Contact Section -->
+        Motivated by the insights gained during the UA92 bootcamp in cloud engineering with cybersecurity, 
+        I secured an apprenticeship with THG.
+         Opting for an apprenticeship was driven by my eagerness for practical experience, ongoing learning, 
+         and mentorship,I believe this provides a holistic approach to building a strong foundation for my cybersecurity career.</p>
+      <div class="arrow arrow-right"></div>
+  </div>
+    </div>
+    
+    </body>
+    </html>
+    
+
+
+    <!DOCTYPE html>
+    <html>
+    
+    <head>
+      <style>
+        .w3-dark-grey {
+          background-color: darkgrey; /* Default color for other bars */
+        }
+      </style>
+    </head>
+
+    <body>
+
+
+      <h3 class="w3-padding-16 w3-text-light-grey" class="w3-padding-64 w3-content" id="My-Skills-&-CV">
+        <h2 class="w3-text-light-grey">My Skills & CV</h2>
+        <hr style="width:200px" class="w3-opacity">
+      <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Horizontal Image Grid</title>
+      <style>
+          body {
+              font-family: 'Arial', sans-serif;
+              margin: 0;
+              padding: 20px;
+              background-color: #f3f3f3;
+          }
+  
+          .grid-container {
+              display: flex;
+              gap: 20px; /* Adjust the gap as needed */
+              overflow-x: auto;
+          }
+  
+          .grid-item {
+              flex: 0 0 auto;
+          }
+  
+          .grid-item img {
+              width: 220px; /* Adjust the maximum width as needed */
+              border-radius: 8px;
+              box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          }
+      </style>
+  </head>
+  <body>
+  
+  <div class="grid-container">
+      <div class="grid-item">
+          <img src="images/Skill 1.jpg" alt="Image 1" width="600" height="250">
+      </div>
+      <div class="grid-item">
+          <img src="images/skill 2.jpg" alt="Image 2" width="600" height="250">
+      </div>
+      <div class="grid-item">
+          <img src="images/Skill 3.jpg" alt="Image 3" width="600" height="250">
+      </div>
+      <div class="grid-item">
+          <img src="images/skill 4.jpg" alt="Image 4" width="600" height="250">
+      </div>
   </div>
   
-    <!-- Footer -->
-  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
-    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
-  <!-- End footer -->
-  </footer>
 
-<!-- END PAGE CONTENT -->
+
+
+      <h3 class="w3-padding-16 w3-text-light-grey">Language usage for my portfolio</h3>
+      
+      <p class="w3-wide" style="color: white;">HTML</p>
+      <div class="w3-white">
+        <div style="height: 28px; width: 95%; background-color: rgb(255, 106, 0);"></div>
+      </div>
+    
+      <p class="w3-wide" style="color: white;">JavaScript</p>
+      <div class="w3-white">
+        <div style="height: 28px; width: 85%; background-color: yellow;"></div>
+      </div>
+    
+      <p class="w3-wide" style="color: white;">CSS</p>
+      <div class="w3-white">
+        <div style="height: 28px; width: 80%; background-color: dodgerblue;"></div>
+      </div><br>
+
+
+      <a href="Thasbia Sultana CV - tech.docx" download>
+        <button class="w3-button w3-light-grey w3-padding-large w3-section">
+          <i class="fa fa-download"></i> Download CV
+        </button>
+      </a>
+      
+      
+    </body>
+    
+    </html>
+    
+
+<!-- Contact Section -->
+<div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+  <h2 class="w3-text-light-grey" style="color: white;">Contact Me</h2>
+  <hr style="width:200px" class="w3-opacity">
+
+  <div class="w3-section">
+    <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> <span style="color: white;">Manchester, UK</span></p>
+    <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> <span style="color: white;">Phone: 07637 598233</span></p>
+    <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> <span style="color: white;">Email: thasbia.sultana@apprentice.ua92.ac.uk</span></p>
+  </div><br>
+
+
+ 
+  </footer>
+  
+  <!-- END PAGE CONTENT -->
 </div>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Page</title>
+  <style>
+    body {
+      font-family: "Montserrat", sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9fa;
+    }
+
+    header {
+      background-color: #343a40;
+      color: #ffffff;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    section {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    form {
+      max-width: 600px;
+      margin: 0 auto;
+      background-color: #000;
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+      color: #fff;
+      border: 2px solid #fff;
+    }
+
+    h2 {
+      color: #fff;
+      font-weight: bold; /* Make subheadings bold */
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 12px;
+      font-size: 18px;
+      color: #fff; /* Make labels white */
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 16px;
+      margin-bottom: 24px;
+      box-sizing: border-box;
+      border: 2px solid #fff;
+      border-radius: 8px;
+      background-color: #000;
+      color: #fff;
+      font-size: 16px;
+    }
+
+    button {
+      background-color: #fff;
+      color: #000;
+      padding: 20px 30px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 18px;
+      text-decoration: none;
+    }
+
+    button:hover {
+      background-color: #495057;
+    }
+
+    .thank-you-message {
+      display: none;
+      color: #fff;
+      font-size: 18px;
+      margin-top: 20px;
+    }
+
+    footer {
+      background-color: #343a40;
+      color: #ffffff;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    footer a {
+      color: #ffffff;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+
+  
+
+  <section style="color: white; font-size: 20px;">
+    <p>Feel free to contact me using the form below.</p>
+</section>
+
+
+    <form id="contact-form" onsubmit="submitForm(event)">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="subject">Subject:</label>
+      <input type="text" id="subject" name="subject">
+
+      <label for="message">Your Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <div id="thank-you-message" class="thank-you-message">Thank you for your message!</div>
+  </section>
+
+
+
+  <script>
+    function submitForm(event) {
+      event.preventDefault();
+
+      // Assuming the form is valid, show the thank-you message
+      document.getElementById('contact-form').style.display = 'none';
+      document.getElementById('thank-you-message').style.display = 'block';
+    }
+  </script>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Add your own styles to customize the appearance of the banner */
+    #cookies-banner {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background-color: #333;
+      color: #fff;
+      padding: 15px;
+      text-align: center;
+    }
+    #cookies-banner button {
+      margin: 0 10px;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+    #accept-cookies {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+    }
+    #decline-cookies {
+      background-color: #bbb;
+      color: black;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Your page content goes here -->
+
+  <!-- Cookies Banner -->
+  <div id="cookies-banner">
+    <p>This website uses cookies to ensure you get the best experience on our website.</p>
+    <button id="accept-cookies" onclick="acceptCookies()">Accept</button>
+    <button id="decline-cookies" onclick="declineCookies()">Decline</button>
+  </div>
+
+  <!-- Your scripts and other HTML content -->
+
+  <script>
+    // Function to set a cookie and hide the banner when the user accepts
+    function acceptCookies() {
+      // Set a cookie with an expiry date, e.g., 30 days
+      var expiryDate = new Date();
+      expiryDate.setDate(expiryDate.getDate() + 30);
+      document.cookie = "cookies_accepted=true; expires=" + expiryDate.toUTCString() + "; path=/";
+
+      // Hide the banner
+      document.getElementById("cookies-banner").style.display = "none";
+    }
+
+    // Function to handle the case when the user declines cookies
+    function declineCookies() {
+      // You can add your own logic for handling the decline, such as redirecting the user to a privacy policy page.
+      alert("We respect your decision. Please note that some features of the site may not function properly without cookies.");
+      
+      // You may choose to hide the banner or perform other actions based on your requirements
+      document.getElementById("cookies-banner").style.display = "none";
+    }
+
+    // Check if the user has previously accepted cookies
+    function checkCookies() {
+      if (document.cookie.indexOf("cookies_accepted=true") === -1) {
+        // Show the banner if the cookie is not found
+        document.getElementById("cookies-banner").style.display = "block";
+      }
+    }
+
+    // Run the checkCookies function when the page loads
+    window.onload = checkCookies;
+  </script>
+
+</body>
+</html>
+
+
+
+
+
+
 
 </body>
 </html>
